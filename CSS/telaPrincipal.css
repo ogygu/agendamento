@@ -1,0 +1,75 @@
+body{
+    font-family: Arial, sans-serif; 
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+header { 
+    background: #4CAF50; 
+    color: white; 
+    padding: 20px 0; 
+    text-align: center; 
+}
+nav {
+    background: #a3f097; 
+    color: white; 
+    padding: 10px 0; 
+}
+nav ul { 
+    list-style: none;
+    margin: 0; 
+    padding: 0; 
+    display: flex; 
+    justify-content: center; 
+}
+nav ul li { 
+    margin: 0 15px; 
+}
+nav ul li a { 
+    color: white; 
+    text-decoration: none; 
+    font-weight: bold; 
+}
+
+#img_tela_princiapl {
+    display: flex; 
+    gap: 30px; 
+    justify-content: center; 
+    margin-top: 30px; 
+}
+#img_frutas_vegetais {
+    width: 45%; 
+    max-width: 500px; 
+    height: 45%; 
+    border-radius: 40px; 
+}
+#img_alimentacao_saudavel {
+    width: 45%; 
+    max-width: 500px; 
+    height: 50%; 
+    border-radius: 40px; 
+}
+
+#texto_explição {
+    font-size: 25px;
+    margin: 15px ;
+}
+
+#nutricao-importancia{
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+section {
+    flex: 1;
+    padding: 40px 20px; 
+}
+footer { 
+    background: #4CAF50; 
+    color: white; 
+    text-align: center; 
+    padding: 15px 0; 
+}
