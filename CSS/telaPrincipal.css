@@ -33,35 +33,92 @@ nav ul li a {
     font-weight: bold; 
 }
 
-#img_tela_princiapl {
-    display: flex; 
-    gap: 30px; 
-    justify-content: center; 
-    margin-top: 30px; 
-}
-#img_frutas_vegetais {
-    width: 45%; 
-    max-width: 500px; 
-    height: 45%; 
-    border-radius: 40px; 
-}
-#img_alimentacao_saudavel {
-    width: 45%; 
-    max-width: 500px; 
-    height: 50%; 
-    border-radius: 40px; 
+#inicio-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 40px;
+    padding: 40px 20px 0 20px;
 }
 
-#texto_explição {
-    font-size: 25px;
-    margin: 15px ;
+#img-container {
+    flex: 0 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 20px;            /* Mesmo espaçamento das divs abaixo */
 }
 
-#nutricao-importancia{
-    background: #f9f9f9;
-    padding: 20px;
-    border-radius: 10px;
+#img-familia-inicio {
+    width: 40vw;
+    max-width: 500px;
+    min-width: 280px;
+    border-radius: 18px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+    display: block;
 }
+
+#importancia-alimentacao {
+    flex: 1;
+    margin-left: 0; /* Garante que não haja espaçamento extra */
+}
+#agendamento-dicas-container {
+   display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 30px 0 0 40px; /* Adiciona espaçamento à esquerda */
+    width: 100%;
+    max-width: 900px;
+}
+
+#agendamento, #dicas-nutricao {
+    max-width: 440px;
+    margin: 0;
+    padding: 0 20px 0 0;
+    box-sizing: border-box;
+}
+
+h2, h3 {
+    color: #2e7d32; /* verde */
+}
+
+#img_instagram {
+    width: 18px;
+    vertical-align: middle;
+    margin-right: 5px;
+    filter: invert(1); /* Inverte as cores do ícone para se adequar ao fundo */
+
+}
+
+#bt-agendar-content {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+#btn-agendar-consulta {
+    background: #2e7d32;
+    color: #fff;
+    padding: 16px 36px;
+    border: none;
+    border-radius: 24px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background 0.2s;
+    box-shadow: 0 2px 8px rgba(46,125,50,0.08);
+    display: inline-block;
+}
+
+#btn-agendar-consulta:hover {
+    background: #256326;
+}
+
+
+
 
 section {
     flex: 1;

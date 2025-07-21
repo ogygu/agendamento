@@ -32,6 +32,15 @@ nav ul li a {
     text-decoration: none; 
     font-weight: bold; 
 }
+
+#img_instagram {
+    width: 18px;
+    vertical-align: middle;
+    margin-right: 5px;
+    filter: invert(1); /* Inverte as cores do ícone para se adequar ao fundo */
+
+}
+
 section {
     flex: 1;
     padding: 40px 20px; 
